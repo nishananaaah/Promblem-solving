@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const array =[[4, 2, 7, 1], [20, 70, 40, 90], [1, 2, 0]];
+function findlargest(arr){
+    let arr1=[];
+    let largest
+    for(let i=0;i<arr.length;i++){
+     largest=Math.max(...arr[i]);
+    
+     arr1.push(largest);
+    }
+    return arr1;
+
+}
+console.log(findlargest(array));
+    </script>
+</body>
+</html>
