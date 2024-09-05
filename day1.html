@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>This&nbsp;is&nbsp;a&nbsp;sentence&nbsp;with&nbsp;non-breaking&nbsp;spaces.</p>
+
+    <h1>this is a number pattern</h1>
+    <script>
+
+
+        for(let i =5;i>=1;i--){
+            for(let j=i;j>=1;j--){
+                document.write('*');   
+            }
+            document.write('<br>');
+        }
+
+
+        for(let i =1;i<=5;i++){
+            for(let j = 1;j<=i;j++){
+                document.write(j);
+            }  
+            document.write("<br>"); 
+         }
+
+        for(let i = 0;i<=10;i++){
+
+            for(let j = 0;j<=10;j++){
+                document.write("months"+"<br>");
+            }
+            document.write("years"+'<br>');
+        }
+
+        for(let i =1;i<=10;i++){
+            console.log('HI'+i);
+            for(let j = 1;j<=10;j++)
+            console.log('HELLO'+j);
+        }
+
+                const arr = [1,2,3,4,5,6];
+        let i;
+        let max = arr[0]
+        for(i=0;i>arr.length;i++){
+            if(arr[i]> max){
+                max = arr[i];
+            }
+        }
+        console.log(max);
+
+        pattern
+
+        let n=5;
+        let string = "";
+        for(let i=1;i<=n;i++){
+            for(let j=n;j>=i;j--){
+                string += " ";
+            }
+            for(let k=1;k<=2*i-1;k++){
+                if(i==1||i==n){
+                    string += "*";
+                }else if(k==1||k==2*i-1){
+                    string += "*";
+                }else{
+                    string += " ";
+                }
+            }
+            string += "\n";
+        }
+
+        console.log(string)
+
+        let count =1;
+        for(let i =1;i<=3;i++){
+            for(let j=3;j>=i;j--){
+                document.write("&nbsp")
+            }
+            for(let k=0;k<=i;j++){
+                document.write(count+" ");
+                count++;
+            }
+            document.write('<br>');
+                // }
+        let count =1;
+                for (let i = 1; i <= 3; i++) {
+                    for (let j = 3; j >= i; j--) {
+                        document.write("&nbsp;");
+                    }
+                    for (let k = 0; k <= i; k++) {
+                        document.write(count+ "    ");
+                        count++;
+                    }
+                    document.write("<br>");
+                }
+
+        // let count=1;
+        for(let i=10;i>=0;i--){
+            for(let j =i;j>=1;j--){
+                document.write("*");
+            //     count++;
+            }
+            document.write("<br>");
+        }
+        const arr = [5, 4, 7, 9, 6];
+        let i;
+        let lar = arr[0];
+        console.log(lar);
+        for (i = 0; i < arr.length; i++) {
+            if (arr[i] > lar) {
+                lar = arr[i];
+            }
+        }
+        console.log(lar);
+
+            let text='asdffgghjkllmnbvxzdcbbfb';
+          document.write(text.length);
+
+
+
+        let x = "John";
+        let y = new String("John");
+        document.write(y);
+
+
+        let word = "ARRAY";
+        let pattern = "";
+        for (let i = 0; i < word.length; i++) {
+            for (let j = 0; j <=i; j++) {
+                pattern=word[j];
+                document.write(pattern);
+            }
+            document.write("<br>");
+        }
+        let word = "STRING";
+        let pattern = "";
+        for (let i = 0; i < word.length; i++) {
+            for (let j = 0; j <= i; j++) {
+                pattern = word[j];
+                document.write(pattern);
+            }
+            document.write("<br>");
+        }
+        let count=1;
+        for(let i=1;i<=3;i++){
+            for(let j=3;j>=i;j--){
+                document.write("&nbsp;");
+            }
+
+            for(let k=1;k<i*2;k++){
+                document.write(count+"");
+                count++;
+            }
+            document.write("<br>");
+
+        const array = [2, 4, 6, 8, 10]
+        function getSum(arr) {
+            return arr.reduce((sum, num) => sum + Math.abs(num), 0);
+        }
+
+        // Example usage:
+
+        console.log(getSum(array)); // Output: 10
+
+        const str = "ARRAY";
+        pattern = "";
+        for (let i = 0; i < str.length; i++) {
+         for(let j=0;j<=i;j++){
+            pattern=str[j];
+            document.write(pattern);
+         }
+         document.write("<br>");
+        }
+for(let i=1;i<=5;i++){
+    for(let j=5;j>=i;j--){
+        document.write(i);
+    }
+    document.write("<br>");
+}
+const array1=[1,2,3,4,5,6,7,8];
+delete array1[5];
+document.write(array1);
+
+
+
+
+
+    </script>
+</body>
+
+</html>
