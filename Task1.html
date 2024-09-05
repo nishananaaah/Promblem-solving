@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const words = ['apple', 'banana', 'cherry', 'blueberry'];
+function longestword(word){
+    let word2='';
+    for(let i=0;i<word.length;i++){
+        if(word[i].length>word2.length){
+            word2=word[i]
+        }
+    }
+    return word2;
+}
+console.log(longestword(words))
+    </script>
+</body>
+</html>
